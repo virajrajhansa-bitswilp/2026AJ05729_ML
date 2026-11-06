@@ -4,7 +4,7 @@
 The objective of this project is to predict customer satisfaction (`satisfied` vs. `neutral or dissatisfied`) for an airline based on passenger demographics, flight parameters, and onboard service ratings. Identifying the leading drivers of passenger dissatisfaction enables airlines to optimize resource allocation, enhance passenger experience, and reduce churn.
 
 ## b. Dataset Description
-- **Source**: Airline Passenger Satisfaction Dataset (Kaggle / UCI Machine Learning Repository).
+- **Source**: Airline Passenger Satisfaction Dataset (Kaggle).
 - **Instances**: 12,000 training records, 2,000 test records (both balanced with 50% satisfied and 50% neutral/dissatisfied).
 - **Features**: 22 predictive features (satisfying the assignment minimum of 12 features).
   - *Demographic & Flight Details*: Gender, Customer Type, Age, Type of Travel, Class, Flight Distance, Departure Delay in Minutes, Arrival Delay in Minutes.
@@ -13,7 +13,7 @@ The objective of this project is to predict customer satisfaction (`satisfied` v
 - **Preprocessing**: Median imputation for missing values in `Arrival Delay in Minutes`, standard scaling for numerical features, and one-hot encoding for categorical variables (`Gender`, `Customer Type`, `Type of Travel`, `Class`).
 
 ## c. GitHub Repository Link
-`https://github.com/virajrajhansa-bitswilp/<to be added>`
+`https://github.com/virajrajhansa-bitswilp/2026AJ05729_ML`
 
 ## d. Models Used & Evaluation Metric Comparison
 All five classifiers were trained on the training partition and evaluated strictly on the 2,000 held-out test instances.
